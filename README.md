@@ -1,6 +1,6 @@
 # obs_avoidance_ros_ideas
 
-## Multi-Sensor Integration:
+## Multi-Sensor Integration: obstacle_avoidance file
 ### Nodes:
 front_sensor_sub: Subscribes to the front sensor topic.
 rear_sensor_sub: Subscribes to the rear sensor topic.
