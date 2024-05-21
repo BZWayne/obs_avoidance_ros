@@ -1,13 +1,5 @@
 # obs_avoidance_ros_ideas
 
-## Basic Obstacle Detection and Avoidance:
-### Nodes:
-sensor_subscriber: Subscribes to sensor data (e.g., /scan for LiDAR).
-cmd_publisher: Publishes velocity commands to avoid obstacles.
-### Functionality:
-Read sensor data and detect obstacles within a certain range.
-Publish velocity commands to steer the robot away from obstacles.
-
 ## Multi-Sensor Integration:
 ### Nodes:
 front_sensor_sub: Subscribes to the front sensor topic.
@@ -16,6 +8,14 @@ cmd_publisher: Publishes aggregated velocity commands.
 ### Functionality:
 Merge data from both sensors.
 Compute a safe path and publish commands to avoid obstacles detected by any of the sensors.
+
+## Basic Obstacle Detection and Avoidance:
+### Nodes:
+sensor_subscriber: Subscribes to sensor data (e.g., /scan for LiDAR).
+cmd_publisher: Publishes velocity commands to avoid obstacles.
+### Functionality:
+Read sensor data and detect obstacles within a certain range.
+Publish velocity commands to steer the robot away from obstacles.
 
 ## Simple Wall Follower:
 ### Nodes:
